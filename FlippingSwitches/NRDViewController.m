@@ -13,6 +13,9 @@
 @property (nonatomic, strong) IBOutletCollection(UISwitch) NSArray *childSwitches;
 @property (nonatomic, weak) IBOutlet UISwitch *masterSwitch;
 
+- (IBAction)childSwitchAction:(id)sender;
+- (IBAction)masterSwitchAction:(id)sender;
+
 @end
 
 @implementation NRDViewController
@@ -27,6 +30,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)childSwitchAction:(id)sender
+{
+    self.masterSwitch.on = ([[self.childSwitches valueForKeyPath:@"@sum.on"] integerValue] == self.childSwitches.count);
+}
+
+- (IBAction)masterSwitchAction:(id)sender
+{
+    [self.childSwitches setValue:@(self.masterSwitch.on) forKey:@"on"];
 }
 
 @end
