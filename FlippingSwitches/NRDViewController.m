@@ -8,7 +8,12 @@
 
 #import "NRDViewController.h"
 
+NSString * const NRDUISwitchOnKey = @"on";
+
 @interface NRDViewController ()
+
+- (IBAction)masterSwitchValueChanged:(id)sender;
+- (IBAction)switchValueChanged:(id)sender;
 
 @property (nonatomic, strong) IBOutletCollection(UISwitch) NSArray *childSwitches;
 @property (nonatomic, weak) IBOutlet UISwitch *masterSwitch;
@@ -27,6 +32,15 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)masterSwitchValueChanged:(id)sender {
+    [self.childSwitches setValue:@(self.masterSwitch.on)
+                          forKey:NRDUISwitchOnKey];
+}
+
+- (IBAction)switchValueChanged:(id)sender {
+    self.masterSwitch.on = [[self.childSwitches valueForKeyPath:@"@min.on"] boolValue];
 }
 
 @end
