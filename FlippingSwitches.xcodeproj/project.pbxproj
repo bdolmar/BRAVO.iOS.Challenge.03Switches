@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F839449186D40460070B303 /* UISwitch+OnWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F839448186D40460070B303 /* UISwitch+OnWrapper.m */; };
 		58B103691856D48F006EE948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B103681856D48F006EE948 /* Foundation.framework */; };
 		58B1036B1856D48F006EE948 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B1036A1856D48F006EE948 /* CoreGraphics.framework */; };
 		58B1036D1856D48F006EE948 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B1036C1856D48F006EE948 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F839447186D40460070B303 /* UISwitch+OnWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwitch+OnWrapper.h"; sourceTree = "<group>"; };
+		1F839448186D40460070B303 /* UISwitch+OnWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+OnWrapper.m"; sourceTree = "<group>"; };
 		58B103651856D48F006EE948 /* FlippingSwitches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlippingSwitches.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B103681856D48F006EE948 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		58B1036A1856D48F006EE948 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				58B103781856D48F006EE948 /* NRDAppDelegate.m */,
 				58B1037D1856D48F006EE948 /* NRDViewController.h */,
 				58B1037E1856D48F006EE948 /* NRDViewController.m */,
+				1F839447186D40460070B303 /* UISwitch+OnWrapper.h */,
+				1F839448186D40460070B303 /* UISwitch+OnWrapper.m */,
 				58B1039D1856D955006EE948 /* Resources */,
 				58B1036F1856D48F006EE948 /* Supporting Files */,
 			);
@@ -298,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F839449186D40460070B303 /* UISwitch+OnWrapper.m in Sources */,
 				58B1037F1856D48F006EE948 /* NRDViewController.m in Sources */,
 				58B103751856D48F006EE948 /* main.m in Sources */,
 				58B103791856D48F006EE948 /* NRDAppDelegate.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "NRDViewController.h"
+#import "UISwitch+OnWrapper.h"
 
 @interface NRDViewController ()
 
@@ -17,16 +18,14 @@
 
 @implementation NRDViewController
 
-- (void)viewDidLoad
+- (IBAction)childSwitchValueChanged:(id)sender
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.masterSwitch.on = ([(NSNumber *)[self.childSwitches valueForKeyPath:@"@sum.onNumber"] integerValue] == [self.childSwitches count]);
 }
 
-- (void)didReceiveMemoryWarning
+- (IBAction)masterSwitchValueChanged:(id)sender
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [self.childSwitches makeObjectsPerformSelector:@selector(setOnNumber:) withObject:[self.masterSwitch onNumber]];
 }
 
 @end
