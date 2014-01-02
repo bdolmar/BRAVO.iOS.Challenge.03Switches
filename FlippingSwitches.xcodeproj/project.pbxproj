@@ -22,6 +22,7 @@
 		58B103941856D48F006EE948 /* FlippingSwitchesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B103931856D48F006EE948 /* FlippingSwitchesTests.m */; };
 		58B103A01856D955006EE948 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B1039E1856D955006EE948 /* Images.xcassets */; };
 		58B103A11856D955006EE948 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 58B1039F1856D955006EE948 /* Settings.bundle */; };
+		845221D01858AE6200380B95 /* UISwitch+Flipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 845221CF1858AE6200380B95 /* UISwitch+Flipping.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		58B103931856D48F006EE948 /* FlippingSwitchesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlippingSwitchesTests.m; sourceTree = "<group>"; };
 		58B1039E1856D955006EE948 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		58B1039F1856D955006EE948 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		845221CE1858AE6200380B95 /* UISwitch+Flipping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwitch+Flipping.h"; sourceTree = "<group>"; };
+		845221CF1858AE6200380B95 /* UISwitch+Flipping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+Flipping.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				58B103781856D48F006EE948 /* NRDAppDelegate.m */,
 				58B1037D1856D48F006EE948 /* NRDViewController.h */,
 				58B1037E1856D48F006EE948 /* NRDViewController.m */,
+				845221CE1858AE6200380B95 /* UISwitch+Flipping.h */,
+				845221CF1858AE6200380B95 /* UISwitch+Flipping.m */,
 				58B1039D1856D955006EE948 /* Resources */,
 				58B1036F1856D48F006EE948 /* Supporting Files */,
 			);
@@ -300,6 +305,7 @@
 			files = (
 				58B1037F1856D48F006EE948 /* NRDViewController.m in Sources */,
 				58B103751856D48F006EE948 /* main.m in Sources */,
+				845221D01858AE6200380B95 /* UISwitch+Flipping.m in Sources */,
 				58B103791856D48F006EE948 /* NRDAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +436,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlippingSwitches/FlippingSwitches-Prefix.pch";
 				INFOPLIST_FILE = "FlippingSwitches/FlippingSwitches-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -443,6 +450,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlippingSwitches/FlippingSwitches-Prefix.pch";
 				INFOPLIST_FILE = "FlippingSwitches/FlippingSwitches-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
