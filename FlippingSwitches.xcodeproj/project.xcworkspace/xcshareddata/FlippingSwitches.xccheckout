@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>023545BE-1E7E-410C-B2BF-DDE562B457C5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FlippingSwitches</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>07F43EDB-0093-48D1-8FCF-8BFDA4E957C1</key>
+		<string>https://github.com/JoshuaSullivan/BRAVO.iOS.Challenge.03Switches.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FlippingSwitches.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>07F43EDB-0093-48D1-8FCF-8BFDA4E957C1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JoshuaSullivan/BRAVO.iOS.Challenge.03Switches.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>07F43EDB-0093-48D1-8FCF-8BFDA4E957C1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>07F43EDB-0093-48D1-8FCF-8BFDA4E957C1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BRAVO.iOS.Challenge</string>
+		</dict>
+	</array>
+</dict>
+</plist>

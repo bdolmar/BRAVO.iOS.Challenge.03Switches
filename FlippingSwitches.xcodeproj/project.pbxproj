@@ -22,6 +22,8 @@
 		58B103941856D48F006EE948 /* FlippingSwitchesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B103931856D48F006EE948 /* FlippingSwitchesTests.m */; };
 		58B103A01856D955006EE948 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B1039E1856D955006EE948 /* Images.xcassets */; };
 		58B103A11856D955006EE948 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 58B1039F1856D955006EE948 /* Settings.bundle */; };
+		7B94CA0B187F22B000BE6044 /* NRDNotificationConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B94CA0A187F22B000BE6044 /* NRDNotificationConsts.m */; };
+		7B94CA0E187F233500BE6044 /* NRDChildSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B94CA0D187F233500BE6044 /* NRDChildSwitch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		58B103931856D48F006EE948 /* FlippingSwitchesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlippingSwitchesTests.m; sourceTree = "<group>"; };
 		58B1039E1856D955006EE948 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		58B1039F1856D955006EE948 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		7B94CA09187F22B000BE6044 /* NRDNotificationConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRDNotificationConsts.h; sourceTree = "<group>"; };
+		7B94CA0A187F22B000BE6044 /* NRDNotificationConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRDNotificationConsts.m; sourceTree = "<group>"; };
+		7B94CA0C187F233500BE6044 /* NRDChildSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRDChildSwitch.h; sourceTree = "<group>"; };
+		7B94CA0D187F233500BE6044 /* NRDChildSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRDChildSwitch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 		58B1036E1856D48F006EE948 /* FlippingSwitches */ = {
 			isa = PBXGroup;
 			children = (
+				7B94CA08187F228D00BE6044 /* Model */,
 				58B1037A1856D48F006EE948 /* Main.storyboard */,
 				58B103771856D48F006EE948 /* NRDAppDelegate.h */,
 				58B103781856D48F006EE948 /* NRDAppDelegate.m */,
@@ -124,6 +131,8 @@
 				58B1037E1856D48F006EE948 /* NRDViewController.m */,
 				58B1039D1856D955006EE948 /* Resources */,
 				58B1036F1856D48F006EE948 /* Supporting Files */,
+				7B94CA0C187F233500BE6044 /* NRDChildSwitch.h */,
+				7B94CA0D187F233500BE6044 /* NRDChildSwitch.m */,
 			);
 			path = FlippingSwitches;
 			sourceTree = "<group>";
@@ -164,6 +173,15 @@
 				58B1039F1856D955006EE948 /* Settings.bundle */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		7B94CA08187F228D00BE6044 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B94CA09187F22B000BE6044 /* NRDNotificationConsts.h */,
+				7B94CA0A187F22B000BE6044 /* NRDNotificationConsts.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +319,8 @@
 				58B1037F1856D48F006EE948 /* NRDViewController.m in Sources */,
 				58B103751856D48F006EE948 /* main.m in Sources */,
 				58B103791856D48F006EE948 /* NRDAppDelegate.m in Sources */,
+				7B94CA0E187F233500BE6044 /* NRDChildSwitch.m in Sources */,
+				7B94CA0B187F22B000BE6044 /* NRDNotificationConsts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
