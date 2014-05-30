@@ -29,4 +29,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onMasterSwitchValueChanged:(id)sender
+{
+    [self.childSwitches setValue:@(self.masterSwitch.isOn) forKey:@"on"];
+}
+
+- (IBAction)onChildSwitchValueChanged:(id)sender
+{
+    NSNumber *masterShouldBeOn = [self.childSwitches valueForKeyPath:@"@min.on"];
+    self.masterSwitch.on = masterShouldBeOn.boolValue;
+}
+
 @end
